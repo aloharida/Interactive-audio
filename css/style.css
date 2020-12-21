@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    background: rgb(226, 226, 226);
+    font-weight: 300;
+    overflow: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  img{
+    position : cover;
+    width: 1440px;
+    height: 770px;
+    background-color: transparent;
+  }
+  
+  
+  .img {
+    width: 100%;
+    height: 1000px;
+    transform-style: preserve-3d;
+    transition: all 500ms;
+  }
+  .Scenes section {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    height: 100vh;
+    transition: top 500ms;
+    transform-style: preserve-3d;
+  }
+  .Scenes section.sky {
+    background: #622650;
+  }
+
+  }
+  
